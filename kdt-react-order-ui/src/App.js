@@ -99,7 +99,7 @@ function App() {
             <ProductList products={products}/>
           </div>
           <div className="col-md-4 summary p-4">
-              <Summary/>
+              <Summary items={items}/>
           </div>
         </div>
       </div>
